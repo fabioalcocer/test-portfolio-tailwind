@@ -3,14 +3,29 @@
 @tailwind utilities;
 
 :root {
-	font-family: sans-serif;
-	font-size: 16px;
-	line-height: 24px;
-	font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
 
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  font-family: 'Roboto' sans-serif;
+}
+
+.color-primary {
+  color: #5271ff;
+}
+
+.color-secondary {
+  color: #fb7b7f;
+}
+
+.color-tertiary {
+  color: #ffe53a;
 }
